@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+ :root{
+     --Paleblue: hsl(225, 100%, 94%);
+     --Brightblue: hsl(245, 75%, 52%);
+     --Verypale-blue: hsl(225, 100%, 98%);
+     --Desaturated-blue: hsl(224, 23%, 55%);
+     --Dark-blue: hsl(223, 47%, 23%);
+ }
+ body{
+     background-image: url(./images/pattern-background-desktop.svg);
+     background-repeat: no-repeat;
+     background-position: top;
+     background-size: cover;
+ }
+
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+ }
+
+ .card{
+     width: 395px;
+     height: auto;
+     max-width: 100%;
+     background: white;
+     border-radius: 10px;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ .card-body{
+     padding: 30px;
+ }
+ 
+ .card-body h2{
+     margin-bottom: 30px;
+     font-weight: 900;
+ }
+ .card-body p{
+     margin-bottom: 30px;
+     font-size: 16px;
+     font-weight: 500;
+ }
+ .header img{
+     width: 100%;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+ .card-plan{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     background-color: var(--Verypale-blue);
+     border-radius: 10px;
+     padding: 10px 0 10px 0;
+
+ }
+ .card-type{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+ .icon-detail{
+     display: flex;
+     flex-direction: column;
+ }
+ .plan-name{
+     margin-left: 20px;
+     margin-bottom: 5px;
+     font-size: 16px;
+     font-weight: 700;
+ }
+ .button{
+     display: flex;
+     flex-direction: column;
+     margin-top: 30px;
+ }
+ .payment-btn{
+     padding: 15px 0 15px 0 ;
+     background-color: var(--Brightblue);
+     color:white;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+     cursor: pointer;
+     font-weight: 700;
+ }
+ .cancel-order{
+     margin-top: 30px;
+     cursor: pointer;
+ }
