@@ -97,6 +97,9 @@
  .plan-price{
      color: var(--Desaturated-blue);
  }
+ .change-btn{
+     color: var(--Brightblue);
+ }
  .payment-btn{
      padding: 15px 0 15px 0 ;
      background-color: var(--Brightblue);
